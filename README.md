@@ -11,11 +11,20 @@ COIL-100 was collected by the Center for Research on Intelligent Systems at the 
 This dataset contains 1000 images in 10 categories. Every 100 image belongs to a category.
 
 ## Architectures
-## VGG16
+## VGGNet
+VGG stands for Visual Geometric Group. It takes a 224x224x3 image as input. VGG Net consists of architectures ranging from VGG11 to Vgg22. The Convolutions layers use a 3x3 filter and also use 1x1 filters for linear transformation with the stride of 1. It uses ReLu transformation function.
 
+## VGG16
+VGG 16 consists of 16 weighted layers consisting of 13 Convolutional Layers and 3 Dense Layers (Configuration D)
+
+# VGG19
+VGG 16 consists of 19 weighted layers consisting of 16 Convolutional Layers and 3 Dense Layers (Configuration E)
+
+![alt text](https://github.com/niranjana98/Image-Classification/blob/main/VGGNet.png)
 
 ## References
 1. http://www.vision.caltech.edu/Image_Datasets/Caltech101/
 2. http://www1.cs.columbia.edu/CAVE/software/softlib/coil-100.php
 3. http://wang.ist.psu.edu/docs/related/
+4. https://arxiv.org/abs/1409.1556
 
