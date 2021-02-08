@@ -39,9 +39,10 @@ The Architecture consists of 2 sets of 3x3 Convolution Layers seperated by a poo
 
 
 ## References
-1. http://www.vision.caltech.edu/Image_Datasets/Caltech101/
-2. http://www1.cs.columbia.edu/CAVE/software/softlib/coil-100.php
-3. http://wang.ist.psu.edu/docs/related/
-4. https://arxiv.org/abs/1409.1556
-5. https://arxiv.org/pdf/1512.00567v3.pdf
+1. CALTECH Dataset http://www.vision.caltech.edu/Image_Datasets/Caltech101/
+2. COIL 100 Dataset http://www1.cs.columbia.edu/CAVE/software/softlib/coil-100.php
+3. Wang Dataset http://wang.ist.psu.edu/docs/related/
+4. VGGNet https://arxiv.org/abs/1409.1556
+5. Inception V3 https://arxiv.org/pdf/1512.00567v3.pdf
+6. Inception ResNet V2 
 
