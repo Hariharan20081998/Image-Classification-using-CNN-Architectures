@@ -53,7 +53,10 @@ Figure: A 5 layer DenseNet Architecture
 DenseNet 201 consists of 32 Blocks.
 
 ### Xception
+In normal convolution, depthwise convolution is followed by pointwise convolution. Depthwise convolution refers to channel wise spatial convolution. Piecewise convolution refers to 1x1 convolution for dimension change. In Xception, pointwise convolution is followed by depthwise convolution. It also consists of residual connections where the input to a layer is summed with the output. 
 
+![alt text](https://github.com/niranjana98/Image-Classification/blob/main/Xception%20Architecture.png)
+Figure: Xception Architecture
 
 ## References
 1. CALTECH Dataset http://www.vision.caltech.edu/Image_Datasets/Caltech101/
