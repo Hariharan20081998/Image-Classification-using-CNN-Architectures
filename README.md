@@ -17,8 +17,8 @@ VGG stands for Visual Geometric Group. It takes a 224x224x3 image as input. VGG 
 ## VGG16
 VGG 16 consists of 16 weighted layers consisting of 13 Convolutional Layers and 3 Dense Layers (Configuration D)
 
-# VGG19
-VGG 16 consists of 19 weighted layers consisting of 16 Convolutional Layers and 3 Dense Layers (Configuration E)
+## VGG19
+VGG 19 consists of 19 weighted layers consisting of 16 Convolutional Layers and 3 Dense Layers (Configuration E)
 
 ![alt text](https://github.com/niranjana98/Image-Classification/blob/main/VGGNet.png)
 
