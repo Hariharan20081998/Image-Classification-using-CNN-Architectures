@@ -35,14 +35,18 @@ Figure: Representation of a Inception Module
 The Architecture consists of 2 sets of 3x3 Convolution Layers seperated by a pooling layer. This is followed by 3 Inception Modules ending with a Pooling Layer, Linear Layer and a Softmax Layer.
 
 ### Inception ResNet V2
+Incpetion ResNet V2 is a combination on the Inception Architecture along with the techniques using in Residual Nets. This architecture is an updation over Inception V4 in which it has a different stem stucture, Different structure for the Inception blocks, different Reduction Blocks and Hyperparameter changes. The Reduction Blocks are used to change the Height and Width of the grid which is introduced in Inception V4. In this Architecture, similar to ResNets, the output from the inception blocks are summed with its input before it is passed on the next layer. 
 
+![alt text](https://github.com/niranjana98/Image-Classification/blob/main/Inception%20Block%20-%20ResNet.png)
+Figure: An Inception Block from ResNet V2 Architecture
 
-
+![alt text](https://github.com/niranjana98/Image-Classification/blob/main/ResNet%20Architecture.png)
+Figure: Complete ResNet Architecture. V1 and V2 only changes with changes in the Inception Modules. 
 ## References
 1. CALTECH Dataset http://www.vision.caltech.edu/Image_Datasets/Caltech101/
 2. COIL 100 Dataset http://www1.cs.columbia.edu/CAVE/software/softlib/coil-100.php
 3. Wang Dataset http://wang.ist.psu.edu/docs/related/
 4. VGGNet https://arxiv.org/abs/1409.1556
 5. Inception V3 https://arxiv.org/pdf/1512.00567v3.pdf
-6. Inception ResNet V2 
+6. Inception ResNet V2 https://arxiv.org/pdf/1602.07261.pdf
 
