@@ -21,10 +21,22 @@ VGG 16 consists of 16 weighted layers consisting of 13 Convolutional Layers and 
 VGG 19 consists of 19 weighted layers consisting of 16 Convolutional Layers and 3 Dense Layers (Configuration E)
 
 ![alt text](https://github.com/niranjana98/Image-Classification/blob/main/VGGNet.png)
+Figure: Different VGGNet Architectures
+
+### Inception
+The main idea behind the Inception Architecture is to effectively detect and classify images which have large variations insize of the region of interest. Since deep networks have a problem of overfitting and are computationally complex, it is more efficient to make a wider network with different convolutional nets with different filter sizes such as 3x3, 5x5 at the same level. And the outputs from each level is concatenated. There are 4 versions of Inception. 
+
+#### Inception V3
+Inception V3 consists of inception blocks which contains 4 braches which process the inputs: a 1x1 CONV layer, a pooling layer followed by a 1x1 layer, a 1x1 layer and a 3x3 layer and finally a 1x1 layer followed by 2 3x3 layers (which is equivalent to 5x5 layer). Since such architectures have the problem of "Vanishing Gradients", the technique of auxillary loss is used, in which output is obtained from 2 inception modules and loss is computed. The total loss function is a weighted sum of the auxiliary loss and the real loss. In such Auxillary classifiers, Batch Normalisation is used. Inception V3 uses a RMSPropOptimiser.
+
+![alt text](https://github.com/niranjana98/Image-Classification/blob/main/Inception%20Module.png)
+Figure: Representation of a Inception Module
+
 
 ## References
 1. http://www.vision.caltech.edu/Image_Datasets/Caltech101/
 2. http://www1.cs.columbia.edu/CAVE/software/softlib/coil-100.php
 3. http://wang.ist.psu.edu/docs/related/
 4. https://arxiv.org/abs/1409.1556
+5. https://arxiv.org/pdf/1512.00567v3.pdf
 
