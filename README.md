@@ -42,7 +42,11 @@ Incpetion ResNet V2 is a combination on the Inception Architecture along with th
 Figure: An Inception Block from ResNet V2 Architecture
 
 ![alt text](https://github.com/niranjana98/Image-Classification/blob/main/ResNet%20Architecture.png)
-Figure: Complete ResNet Architecture. V1 and V2 only changes with changes in the Inception Modules. 
+Figure: Complete ResNet Architecture. V1 and V2 only changes with changes in the Inception Modules.
+
+### DenseNet201
+In the ResNet Architecture, the output of a layer is summed with the input by elementwise addition. In DenseNet, the input to each layer obtains additional input from all preceding layers. This is done using Concatenation. This leads to the network being thinner and compact. 
+
 ## References
 1. CALTECH Dataset http://www.vision.caltech.edu/Image_Datasets/Caltech101/
 2. COIL 100 Dataset http://www1.cs.columbia.edu/CAVE/software/softlib/coil-100.php
@@ -50,4 +54,5 @@ Figure: Complete ResNet Architecture. V1 and V2 only changes with changes in the
 4. VGGNet https://arxiv.org/abs/1409.1556
 5. Inception V3 https://arxiv.org/pdf/1512.00567v3.pdf
 6. Inception ResNet V2 https://arxiv.org/pdf/1602.07261.pdf
+7. DenseNet201 https://arxiv.org/abs/1608.06993
 
