@@ -45,7 +45,12 @@ Figure: An Inception Block from ResNet V2 Architecture
 Figure: Complete ResNet Architecture. V1 and V2 only changes with changes in the Inception Modules.
 
 ### DenseNet201
-In the ResNet Architecture, the output of a layer is summed with the input by elementwise addition. In DenseNet, the input to each layer obtains additional input from all preceding layers. This is done using Concatenation. This leads to the network being thinner and compact. 
+In the ResNet Architecture, the output of a layer is summed with the input by elementwise addition. In DenseNet, the input to each layer obtains additional input from all preceding layers. This is done using Concatenation. This leads to the network being thinner and compact. Each block of the DenseNet consists of a Batch Normalisation, ReLu and a 3x3 Convolution layer. The Bottleneck part consists of a Bathc Normalisation, ReLu and a 1x1 Convolution Layer. The Transition layer is made up of 1x1 Convolution Layer followed by Average Pooling. Each Dense Block is followed by a Transition Layer. The end of the last Dense Block consists of a Global Pooling layer followed by a Softmax Classifier. 
+
+![alt text](https://github.com/niranjana98/Image-Classification/blob/main/DenseNet.png)
+Figure: A 5 layer DenseNet Architecture
+
+DenseNet 201 consists of 32 Blocks.
 
 ## References
 1. CALTECH Dataset http://www.vision.caltech.edu/Image_Datasets/Caltech101/
