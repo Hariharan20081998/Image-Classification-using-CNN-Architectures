@@ -32,6 +32,11 @@ Inception V3 consists of inception blocks which contains 4 braches which process
 ![alt text](https://github.com/niranjana98/Image-Classification/blob/main/Inception%20Module.png)
 Figure: Representation of a Inception Module
 
+The Architecture consists of 2 sets of 3x3 Convolution Layers seperated by a pooling layer. This is followed by 3 Inception Modules ending with a Pooling Layer, Linear Layer and a Softmax Layer.
+
+### Inception ResNet V2
+
+
 
 ## References
 1. http://www.vision.caltech.edu/Image_Datasets/Caltech101/
