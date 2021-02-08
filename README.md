@@ -52,6 +52,9 @@ Figure: A 5 layer DenseNet Architecture
 
 DenseNet 201 consists of 32 Blocks.
 
+### Xception
+
+
 ## References
 1. CALTECH Dataset http://www.vision.caltech.edu/Image_Datasets/Caltech101/
 2. COIL 100 Dataset http://www1.cs.columbia.edu/CAVE/software/softlib/coil-100.php
@@ -60,4 +63,5 @@ DenseNet 201 consists of 32 Blocks.
 5. Inception V3 https://arxiv.org/pdf/1512.00567v3.pdf
 6. Inception ResNet V2 https://arxiv.org/pdf/1602.07261.pdf
 7. DenseNet201 https://arxiv.org/abs/1608.06993
+8. Xception https://ieeexplore.ieee.org/document/8099678
 
